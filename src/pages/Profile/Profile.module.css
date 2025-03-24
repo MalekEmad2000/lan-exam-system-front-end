@@ -1,0 +1,71 @@
+.form {
+    padding-top: 30px;
+    padding-left: 50px;
+ 
+  }
+
+  .h1{
+    color: darkblue;
+    text-align: center;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    color: darkblue;
+    font-size: large;
+  }
+  
+  
+  .input
+  {
+    display: block;
+    border: 1px solid rgb(10, 80, 105);
+    border-radius: 4px;
+    font: inherit;
+    width: 90%;
+    
+    padding: 0.5rem;
+  }
+
+ 
+
+  
+  div[name="profileForm"] {
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+    display: flex;
+  }
+  
+  
+ 
+
+  
+  .actions {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color:  #77002e;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid #77002e;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #a50e48;
+    border-color: #a50e48;
+  }
+  

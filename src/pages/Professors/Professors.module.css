@@ -1,0 +1,140 @@
+:root{
+    --head_color: darkblue;
+    --nav_color: #171A36;
+    
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 2vh;
+    margin-left: 20vw;
+    align-items: center;
+    justify-content: center;
+    /*overflow: hidden;*/
+    }
+
+      
+      
+      
+.table{
+    margin-left: 0 !important;
+    margin-top: 5vh;
+    width: 70vw;
+    border-collapse: collapse;
+    background-color: white !important;
+    border-radius: 10px;
+    border: 1px solid var(--head_color) ;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2) !important;
+
+}
+
+      
+.table tr{
+    background-color: white;
+    /* border: none !important; */
+    height: 1vh !important;
+    border-radius: 10px;
+    border: 1px solid var(--head_color) ;
+    text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+.table tr th{
+    color: var(--head_color);
+    border-radius: 10px;
+    border: 1px solid var(--head_color) ;
+    text-overflow: ellipsis;
+} 
+
+.table tr td{
+    color: var(--nav_color);
+    border-radius: 10px;
+    border: 1px solid var(--head_color) ;
+    text-overflow: ellipsis;
+}
+
+.table tr td a{
+    color: var(--nav_color);
+}
+
+.table tr td a:hover{
+    color: #36849E;
+}
+
+.table tr td button{
+    color: white;
+    border: 1px solid var(--nav_color);
+    font-size: medium;
+    border-radius: 5px;
+    padding: 5px;
+    
+    cursor: pointer;
+}
+
+.edit{
+  background-color: darkorange;
+  margin-right: 1vw;
+}
+
+.delete{
+  background-color: darkred;
+}
+
+.loading_dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  .message {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .newProf{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .addProfBtn{
+    background-color: green;
+    display: block;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-left: 1vw; */
+    margin-top: 1vh;
+  }

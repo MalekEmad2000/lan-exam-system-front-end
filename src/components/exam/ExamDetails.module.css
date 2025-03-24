@@ -1,0 +1,40 @@
+.statistics{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 90%;
+}
+.h2{
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 1.5rem;
+}
+.splitscreen {
+    display: flex;
+  }
+
+  .splitscreen .graph,
+  .splitscreen .pie {
+    flex: 1;
+  }
+  .pie{
+    margin-left: 4rem;
+    margin-top: 3rem;
+  }
+.div{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.legend{
+  margin-top: -7rem;
+  margin-left: 8rem;
+}
+.div text[name=dot]{
+  font-size: 8rem;
+}
+
+.noStats{
+  margin-top: 8rem;
+  margin-left: 30rem;
+
+}

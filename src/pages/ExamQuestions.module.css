@@ -1,0 +1,257 @@
+.height {
+    padding-top: 15vh;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+div[name="actionDivQuestions"]{
+  border-width: 6px;
+  border-style: groove;
+  border-color: rgba(214, 214, 214, 0.268);
+  background-color: rgba(255, 255, 255, 0.608);
+  margin-left: -3.5ch;
+  margin-right: -3.5ch;
+  height: 20vh;
+  margin-top: -22.5vh;
+  margin-bottom: 5vh;
+  position: relative;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color:#0f99f5;
+  color: rgb(235, 235, 235);
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium';
+  left: 7.2ch;
+  height: 5.1vh;
+  margin-top: 9.2vh;
+  position: relative;
+  padding-left: 1.5ch;
+  padding-right: 1.5ch;
+}
+div[name="select"] {
+  margin-right: 6ch;
+   
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #035c97;
+  color: rgb(255, 255, 255);
+  border-color: #0316a5;
+}
+
+.h1 {
+    color: blue;
+    font-family: 'Arial';
+    font-size: 35px;
+    text-shadow: 1px 1px #2c292b;
+    margin-left: 1%;
+}
+
+.button{
+    font: inherit;
+    font-size: medium;
+    cursor: pointer;
+    background-color:#0f99f5;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+    padding: 0.4%;    
+    margin-bottom: 2.5%;
+    margin-left: 1%;
+    height: 5vh;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #035c97;
+    color: white;
+    border-color: black;
+  }
+
+.floatingButton{
+    font: inherit;
+    font-size: medium;
+    cursor: pointer;
+    background-color:#fa8423bb;
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.425);
+    border-radius: 50%;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+    padding: 1.5%;    
+    margin-top: 35%;
+    margin-left: 75%;
+    margin-bottom: 2%;
+    position: fixed;
+    z-index: 2;
+    
+  }
+  .floatingButton:hover,
+  .floatingButton:active {
+    background-color: #fa8423;
+    border-color: #000000;
+  }
+
+div[name="searchQuestions"]
+{
+  margin-left: 92.9ch;
+  margin-top: -16.1vh;
+  padding-bottom: 5.5vh;
+  width: 100%;
+  margin-right: 20ch;
+}
+
+div[name="searchBankQuestions"]
+{
+  margin-left: 10.5ch;
+  margin-top: 2vh;
+  padding-bottom: 2vh;
+  width: 100%;
+  margin-right: 20ch;
+}
+
+input[type="searchBankQuestions"]
+{
+  font-size: medium;
+  border-radius: 1px;
+  border-color: black;
+  border-radius: 9px;
+  padding: 10px;
+  height: 4.5vh;
+  width: 50ch;
+}
+
+input[type="searchQuestions"]
+{
+  font-size: medium;
+  border-radius: 1px;
+  border-color: black;
+  border-radius: 9px;
+  padding: 10px;
+  height: 4.5vh;
+  width: 25ch;
+}
+
+button[name="searchQuestions"]
+{
+  padding: 0.1px 4px;
+  position: relative;
+  left: 7px;
+  top: 6px;
+  background-color: transparent;
+  border-color: rgba(115, 4, 4, 0.563);
+  border-radius: 100px;
+  cursor: pointer;
+  
+}
+button[name="searchQuestions"]:hover
+{
+  color: rgb(185, 2, 2);
+  background-color: transparent;
+  border-color: rgb(158, 7, 7);
+}
+
+div[name="modal"]{
+  position: relative;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+}
+
+button[name="closeBtn"]{
+  margin-left: 96%;
+  border: 0;
+  background: transparent;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+span[name="closeBtn"]{
+  position: relative;
+  right: 0.5rem;
+}
+
+h1[name="tab"]
+{
+  font-size: 18px;
+  color: black;
+}
+
+h1[name="tab2"]
+{
+  font-size: 20px;
+  color: black;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+button[name="addQuestionsBtn"]
+{
+  background-color: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  border-color: black;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  margin-left: 17.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+button[name="addQuestionsBtn"]:hover
+{
+  background-color: rgb(146, 7, 7);
+}
+
+label[name="filterLabel"]{
+  margin-left: 15rem;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select[name="difficulty"]{
+  font-size: 1.1rem;
+}
+
+
+button[name="addQuestionBankBtn"]{
+  cursor: pointer;
+  font: inherit;
+  background-color: #cd0000;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: 16rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.modal{
+  min-width: 45rem;
+  border-color: black;
+  border-width: 2px;
+  border-style: groove;
+  
+}
+
+.modalTabs{
+  border-color: black;
+  border-style: groove;
+  border-width: 2px;
+}

@@ -1,0 +1,102 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth {
+  width: 400px;
+  margin: 5% auto 0;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.auth h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.auth .imgDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.auth .authimg {
+  max-width: 100%;
+  height: auto;
+}
+
+.auth form {
+  width: 100%;
+}
+
+.auth .control {
+  margin-bottom: 20px;
+}
+
+.auth .control label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.auth .control input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background-color: transparent;
+  transition: border-color 0.3s ease;
+}
+
+.auth .control input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.auth .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth .actions button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth .actions button:hover {
+  background-color: #0056b3;
+}
+
+.auth .toggle {
+  font-size: 14px;
+  color: #007bff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.auth .toggle:hover {
+  color: #0056b3;
+}

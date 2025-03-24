@@ -1,0 +1,59 @@
+.container{
+    padding: 10px;
+}
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+ 
+}
+
+
+.deleteBtn{
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 0.1rem;
+}
+.viewAnswerBtn{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.btnIcon{
+   font-size: small;
+    margin-right: 5px;
+}
+
+.notep{
+    font-size: small;
+    color: #808080;
+    /* font-weight: bold; */
+    margin-left: 40ch;
+}
+
+.chooseFile{
+    margin-left: 20ch;
+}

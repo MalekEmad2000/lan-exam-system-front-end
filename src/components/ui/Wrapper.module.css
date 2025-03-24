@@ -1,0 +1,50 @@
+.Wrapper{
+
+    background-color: #d5eeff;
+    padding: 1rem;
+    border:  1px solid #777;
+    border-radius: .25rem ;
+    top: 100px;
+    }
+    
+    .Wrapper:hover{
+    
+     
+    border: none;
+    box-shadow: 0 2px 5x 0 rgba(0,0,0,.2);
+    
+    }
+    
+    .header{
+    
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    
+    
+    }
+    .body{
+    
+    margin-bottom: 1 rem;
+    font-size: .9 rem;
+    
+    }
+    .footer{
+    
+        margin-top: 1 rem ;
+    }
+    .btn{
+    
+        background-color: hsl(200,50%,50%);
+        color: white;
+        border: none;
+        padding: .5em .75em;
+        border-radius: .5em;
+        cursor: pointer;
+    }
+    .btn + .btn {
+    
+    
+    
+    margin-left: .25 rem;
+    
+    }

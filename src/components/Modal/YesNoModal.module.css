@@ -1,0 +1,81 @@
+.modalBackground {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    max-width: 80%;
+    text-align: center;
+  }
+  
+  .modalHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .modalTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .modalMessage {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+  
+  .modalButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .yesButton,
+  .noButton {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .yesButton {
+    background-color: #2185d0;
+    color: #ffffff;
+  }
+  
+  .noButton {
+    background-color: #ffffff;
+    color: #2185d0;
+    border: 2px solid #2185d0;
+  }
+  
+  .cancelButton {
+    background-color: transparent;
+    border: none;
+    color: #777777;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  @media(min-width: 768px) {
+    .modalContainer {
+    width: 600px;
+    }
+    }

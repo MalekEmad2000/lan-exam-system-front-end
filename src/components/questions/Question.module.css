@@ -1,0 +1,257 @@
+.card {
+    background-color: #cfd1d48d;
+    border-color: rgba(0, 0, 0, 0.662);
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.407);
+    transition: 0.3s;
+    width: 116ch;
+    margin-bottom: 2%;
+    /* margin-left: 4ch; */
+    margin-top: 2vh;
+    position: relative;
+    left: 3rem;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.463);
+  }
+
+  .card p{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #690000;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 1%;
+  }
+
+  .card button{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .item {
+    margin: 1rem 0;
+  }
+  
+  .image {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  
+  .image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .content h3 {
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    margin-left: 1%;
+  }
+  
+
+  .actions {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: #77002e;
+    border: 1px solid #77002e;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #ffe2ed;
+  }
+
+
+        .del {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            border: 2px solid rgb(231, 50, 50);
+            background-color: #fff;
+            cursor: pointer;
+            box-shadow: 0 0 10px #333;
+            overflow: hidden;
+            transition: .3s;
+            margin-top: -4%;
+        }
+        .del:hover {
+            background-color: rgb(245, 207, 207);
+            transform: scale(1.2);
+            box-shadow: 0 0 4px #111;
+            transition: .3s;
+        }
+        .del svg {
+            color: rgb(231, 50, 50);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: .3s;
+        }
+        .del:focus svg {
+            opacity: 0;
+            transition: .3s;
+        }
+        .del span {
+            width: 150px;
+            position: absolute;
+            opacity: 0;
+            transform: translate(-50%, -50%);
+            color: rgb(231, 50, 50);
+            font-weight: 600;
+            transition: .3s;
+            margin-left: 2.5%;
+        }
+        .del:focus {
+            width: 150px;
+            height: 50px;
+            transition: .3s;
+        }
+        .del:focus span {
+            opacity: 1;
+            transition: .3s;
+        }
+
+
+
+
+
+        .edit {
+          width: 50px;
+          height: 50px;
+          border-radius: 25px;
+          border: 2px solid rgb(231, 50, 50);
+          background-color: #fff;
+          cursor: pointer;
+          box-shadow: 0 0 10px #333;
+          overflow: hidden;
+          transition: .3s;
+          margin-top: -10%;
+      }
+      .edit:hover {
+          background-color: rgb(245, 207, 207);
+          transform: scale(1.2);
+          box-shadow: 0 0 4px #111;
+          transition: .3s;
+      }
+      .edit svg {
+          color: rgb(231, 50, 50);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          transition: .3s;
+      }
+      .edit:focus svg {
+          opacity: 0;
+          transition: .3s;
+      }
+      .edit span {
+          width: 150px;
+          position: absolute;
+          opacity: 0;
+          transform: translate(-50%, -50%);
+          color: rgb(231, 50, 50);
+          font-weight: 600;
+          transition: .3s;
+          margin-left: 2.5%;
+      }
+      .edit:focus {
+          width: 150px;
+          height: 50px;
+          transition: .3s;
+      }
+      .edit:focus span {
+          opacity: 1;
+          transition: .3s;
+      }
+
+      .correct{
+        color: green !important;
+      }
+
+      .incorrect{
+        color: rgb(231, 50, 50);
+      }
+      .studentAnswer{
+        /* Highlight student answer */
+        background-color: #FFFF00 !important;
+        width: fit-content !important;
+      }
+
+      .modal_image{
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        position: absolute;
+        right: 8rem;
+        border-color: rgba(0, 0, 0, 0.129);
+        border-width: 4px;
+        border-style: groove;
+        border-radius: 10%;
+      }
+
+      .h4{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.25rem;
+        margin-top: -1.9rem;
+        margin-left: 49rem;
+        display: inline-flex;
+        margin-top: 0.9rem;
+      }
+
+      .h4Easy{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.25rem;
+        margin-top: -1.4rem;
+        margin-left: 55rem;
+        color: rgb(6, 167, 6);
+      }
+
+      .h4Medium{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.25rem;
+        margin-top: -1.4rem;
+        margin-left: 55rem;
+        color: rgb(233, 141, 4);
+      }
+
+      .h4Hard{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.25rem;
+        margin-top: -1.4rem;
+        margin-left: 55rem;
+        color: rgb(216, 6, 6);
+      }

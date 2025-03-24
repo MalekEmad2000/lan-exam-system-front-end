@@ -1,0 +1,121 @@
+ .container {
+    /*width: 100vw;
+    height: 100vh;
+    margin-left: 18vw;
+    background-color: transparent;*/
+    
+    margin-left: 3rem;
+
+    /* margin: inherit; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* padding-left: 5vw; */
+   
+} 
+
+.container .hint{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.no_courses{
+   /* display in the middle of page */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.no_courses .no_courses_icon{
+    font-size: 4rem;
+    color: gray;
+    margin-bottom: 20px;
+}
+.grid{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: flex-start;
+    
+    /* grid-gap: 0.1rem; */
+    /* margin-top: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw; */
+  
+}
+.course_card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* width: 25vw; */
+    min-width: 25vw;
+    min-height: 18vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.407);
+    border-color: rgba(0, 0, 0, 0.662);;
+    background-color: #cfd1d48d;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-style: solid;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.course_card h3{
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.course_card a{
+    /* remove link styling */
+    text-decoration: none;
+    color: black;
+}
+
+.course_card .book_icon{
+    font-size: small;
+}
+.course_card .arrow {
+   /* bottom right */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+  .addQuestionBtn{
+    background-color: green;
+    display: block;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-left: 1vw; */
+    
+  }
+  div[name="modal"]{
+    position: relative;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+  }
+  .modal{
+    min-width: 45rem;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    
+  }

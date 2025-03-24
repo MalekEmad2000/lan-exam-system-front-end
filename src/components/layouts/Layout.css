@@ -1,0 +1,424 @@
+.container{
+
+  min-height: 100%;
+  width: 100%;
+  overflow-x:hidden;
+  background-color: white;
+  display: grid;
+  grid-template: 0fr 9fr /1fr 6.19fr;;
+  grid-template-areas: 
+  
+  "logo header"
+  "nav content"
+  
+  ;
+  }
+  
+
+  @media only screen and (min-width: 50px) {
+    html {
+      zoom: .33;
+    }
+  }
+
+  @media only screen and (min-width: 560px) {
+    html {
+      zoom: .4;        
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    html {
+      zoom: .45;        
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+    html {
+      zoom: .5;        
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    html {
+      zoom: .6;        
+    }
+  }
+
+
+  @media only screen and (min-width: 1000px) {
+    html {
+      zoom: .65;
+    }
+  }
+
+  @media only screen and (min-width: 1100px) {
+    html {
+      zoom: .75;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    html {
+      zoom: .85;
+    }
+  }
+
+  @media only screen and (min-width: 1366px) {
+    html {
+      zoom: .9;
+    }
+  }
+
+  @media only screen and (min-width: 1400px) {
+    html {
+      zoom: .95;
+    }
+  }
+
+  @media only screen and (min-width: 1920px) {
+    html {
+      zoom: 1;
+    }
+  }
+
+  
+
+
+  .logo{
+  background-image: url(../images/alexandriaUniversity.png);
+  background-repeat: no-repeat;
+  background-position: 15px 12px;
+  background-size: 180px;
+  width: 14rem;
+  height: 100%;
+  position: fixed;
+  background-color: #171a36;    
+  z-index: 5;
+  grid-area: logo;
+  } 
+   
+  
+  
+   .header{
+  
+        background-color:#171a36;
+        /*background: url(../images/header_image.JPG);*/
+
+        z-index: 4;
+        grid-area: header;
+        width: 10rem;
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        padding: 0 2%;
+        position: fixed;
+        }
+        
+        h1[name="title"]
+        {
+          color: #ffffff;
+          font-weight: 1rem;
+          font-family: cursive;
+          text-shadow: 2px 2px #1566a3;
+          width: 40rem;
+        }
+        
+
+        div[name="accountRoot"] {
+          height: 0vh;
+          margin-bottom: 202.5vh;
+        }
+        
+        div[name="accountBody"] {
+          margin: 27ch;
+          padding: 0 0;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          font-family: "Montserrat", sans-serif;
+          height: 3.5rem;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          margin-top: 97.8vh;
+          width: 27ch;
+          margin-right: -0.5ch;
+          border-radius: 15px;
+          border-color: rgb(111, 111, 111);
+          border-width: 3px;
+          border-style: groove;
+        }
+        div[name="accountBody"]:hover,
+        div[name="accountBody"]:active{
+          height: 12.5rem;
+        }
+
+        label[name="account"]
+        {
+          font-weight: bold;
+          font-size: larger;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          margin-left: 0ch;
+          margin-right: -20ch;
+          text-align: left;
+          display: inline-block;    
+          max-width: 200px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;    
+          margin-top: 0vh;  
+        }
+
+        div[name="account"]
+        {
+          padding: 0.75ch 0vh;
+          width: 19ch;
+          height: 3rem;
+          margin-left: 3ch;
+          margin-left: 3ch;
+        }
+        
+        img[name="account"] {
+          max-width: 90px;
+          height: 50px;
+          margin-top: -1.2vh;
+          margin-right: 2.7ch;
+        }
+        
+        nav[name="account"] {
+          background-color: #ffffff;
+          padding: 0 3rem;
+          border-radius: 0.625rem;
+          height: 4rem;
+        }
+        
+        ul[name="account"] {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+        }
+        
+        li[name="account"] {
+          list-style-type: none;
+          position: relative;
+          padding: 0.625rem 0 0.5rem;
+        }
+        
+        li ul[name="account"]{
+          flex-direction: column;
+          position: absolute;
+          background-color: #ffffff;
+          align-items: flex-start;
+          transition: all 0.5s ease;
+          width: 17.9rem;
+          right: 0.8rem;
+          top: 3.2rem;
+          border-radius: 0.325rem;
+          gap: 5px;
+          padding: 1rem 1rem;
+          opacity: 1;
+          box-shadow: 0px 0px 100px rgba(20, 18, 18, 0.25);
+          display: flex;
+        }
+        .prof_link{
+          text-decoration: none;
+          color: black;
+          display: contents;
+        }
+       
+        
+        ul li:hover > ul[name="account"],
+        ul li ul[name="account"]:hover {
+          visibility: visible;
+          opacity: 1;
+          display: flex;
+          
+        }
+        
+        .material-icons-outlined {
+          color: #000000;
+          transition: all 0.3s ease-out;
+        }
+        
+        .material-icons-outlined:hover {
+          color: #0080ff;
+          transform: scale(1.25) translateY(-4px);
+          cursor: pointer;
+        }
+        
+        
+        .profile {
+          height: 3rem;
+          width: auto;
+        }
+        
+        
+        .sub-item {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          gap: 0.725rem;
+          cursor: pointer;
+          padding: 0.5rem 1.5rem;
+          border-color: rgba(0, 0, 0, 0.432);
+          border-radius: 0.1px;
+          border-style: groove;
+        }
+        
+        .sub-item:hover {
+          background-color: rgba(120, 120, 120, 0.292);
+          border-color: rgb(0, 0, 0);
+          border-radius: 1px;
+          border-style: groove;
+
+        }
+        
+        .sub-item:hover .material-icons-outlined {
+          color: #0080ff;
+          transform: scale(1.08) translateY(-2px);
+          cursor: pointer;
+        }
+        
+        .sub-item:hover p {
+          color: #0080ff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        
+        .sub-item p {
+          font-size: 0.9rem;
+          color: #000000;
+          font-weight: 800;
+          margin: 0.4rem 0;
+          flex: 1;
+        }
+
+
+
+        /*
+        .header h2
+        {
+          display:inline-block;
+          color: white;
+          padding-left: 7ch;
+          margin-top: 3vh;
+        }
+        .header button{
+          display:inline-block;
+          border-color: transparent;
+          border-width: 1px;
+          background-image: url(../images/profilePic.png) , url(../images/dropdownArrow.png);
+          background-size: 50px 50px , 12px 9px;
+          background-repeat: no-repeat;
+          background-position: 2ch 1vh , 22ch 3.77vh;
+          background-color: transparent;
+          width: 25ch;
+          height: 9vh;
+          position: relative;
+          text-align: left;
+          padding-left: 90px;
+          padding-right: 30px;
+          color: white;
+          font-family: Arial;
+          font-size: larger;
+          font-weight: 400;
+          cursor: pointer;
+        }
+
+        .dropdown {
+          display: inline-block;
+          position: relative;
+          left: 35ch;
+
+          
+        }
+        .dropdown:hover,
+        .dropdown:active {
+          color: white;
+          border-color: rgba(255, 255, 255, 0.951);
+          border-style: groove;
+          border-width: 1px;
+
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f0f0;
+          width: 267px;
+          height: 122px;
+          margin-top: -1px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+          z-index: 1;
+          border-color: black;
+          border-radius: 5px;
+          border-style: groove;
+          
+        }
+        .dropdown-item {
+          display: block;
+          margin: 2px;
+          padding: 10px;
+          color: #000000;
+          font-size: large;
+          font-family: Arial;
+          font-weight: bold;
+          border-radius: 1px;
+          border-color: rgba(0, 0, 0, 0.362);
+          border-style: none;
+          text-align: center;
+          text-decoration: none;
+          
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+          border-color: rgba(0, 0, 0, 0.527);
+          border-radius: 1px;
+          border-style: groove;
+          
+          
+        }    
+        
+        .dropdown-item:hover{
+          display: block;
+          border-style: groove;
+          border-radius: 5px;
+          border-color: black;    
+          background-color: rgb(213, 213, 213);   
+          cursor: pointer;  
+          border-width: 2px;
+           
+        }  */
+
+
+
+  .nav{
+  
+          background-color: white;
+         grid-area: nav;
+        
+          
+          }
+  .content{
+            grid-area: content;
+            background-image: rgb(244, 244, 244);
+            /*background: url(../images/white_background.jpg);*/
+            background-size: contain;
+            justify-content: space-evenly;
+            margin-top: 15vh;
+  }
+
+  
+  
+  .whiteItem{
+
+
+      color: aliceblue;
+
+  }
+

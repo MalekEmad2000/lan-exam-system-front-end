@@ -1,0 +1,64 @@
+button[name="addSection"]{
+    cursor: pointer;
+    background-color:#0f99f5;
+    color: rgb(235, 235, 235);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+    left: 32rem;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    position: relative;
+    height: 2.3rem;
+    width: 12rem;
+    font-size: larger;
+  }
+  
+button[name="addSection"]:hover,
+button[name="addSection"]:active {
+    background-color: #035c97;
+    color: rgb(255, 255, 255);
+    border-color: #0316a5;
+  }
+
+
+label[name="sectionName"]{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 15rem;
+}
+
+input[name="sectionNameInput"]
+{
+  height: 1.75rem;
+  width: 20rem;
+}
+
+form[name="sectionForm"]
+{
+  background-color: rgb(242, 242, 242);
+  padding-top: 2rem;
+  margin-bottom: 1.5rem;
+  bottom: 2rem;
+  position: relative;
+  border-radius: 0.5px;
+  border-style: double;
+}
+
+h1[name="shuffle"]
+{
+  font-size: 22px;
+  margin-left: 30rem;
+}
+
+div[name="shuffle"]
+{
+  margin-left: 37rem;
+  margin-right: 40rem;
+  position: relative;
+  bottom: 1.6rem;
+  right: 2rem;
+}
+ 

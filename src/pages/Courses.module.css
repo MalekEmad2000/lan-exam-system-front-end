@@ -1,0 +1,100 @@
+h1[name="Loading"]
+{
+  margin-left: 27ch;
+  margin-top: -4.5vh;
+}
+
+div[name=addCourseDiv]{
+  padding-left: 22ch;
+  margin-top: -5vh;
+  padding-bottom: 3vh;
+  padding-top: 7vh;
+  background-color: rgb(243, 241, 241);
+}
+
+h1[name=addCourseTitle]{
+  color: rgb(32, 92, 196);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-size: 180%;
+  margin-bottom: 1vh;
+}
+
+input[name=courseName] {
+  background-color: #fafaf9;
+  color: rgb(34, 94, 198);
+  height: 30%;
+  padding-left: 2ch;
+  padding-top: 2vh;
+  font-weight: 700;
+
+}
+
+input[name=courseCode] {
+  background-color: #fafaf9;
+  color: rgb(34, 94, 198);
+  height: 30%;
+  padding-left: 2ch;
+  padding-top: 2vh;
+  font-weight: 700;
+}
+
+button[name=addCourse] {
+  font: inherit;
+  cursor: pointer;
+  background-color:rgb(34, 94, 198);
+  color: rgb(235, 235, 235);
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 10px;
+  margin-top: 7px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium';
+  position: relative;
+}
+
+button[name=addCourse]:hover,
+button[name=addCourse]:active {
+  background-color: rgb(18, 60, 133);
+  color: rgb(255, 255, 255);
+  border-color: #0316a5;
+}
+
+table {
+  border: 2px solid rgb(34, 94, 198);
+  width: 91ch;
+  max-height: 70vh;
+  margin-left: 20ch;
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
+  
+th {
+  text-align: left;
+  border-bottom: 1px solid rgb(34, 94, 198);
+  border-right: 1px solid rgb(34, 94, 198);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  padding-left: 5ch;
+  height: 10vh;
+}
+  
+td {
+  text-align: left;
+  border-bottom: 1px solid rgb(34, 94, 198);
+  border: 1px solid rgb(34, 94, 198);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-left: 7ch;
+  height: 10vh;
+}
+.h1 {
+  margin-left: 27ch;
+  margin-top: -4.5vh;
+}
+
+div[name=resultsTable]{
+  padding: 10px;
+}
+

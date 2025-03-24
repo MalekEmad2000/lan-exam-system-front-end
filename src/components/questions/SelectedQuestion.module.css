@@ -1,0 +1,118 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 4.4rem;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    background-color: #f4f4f4d5;
+    border-color: rgb(38, 169, 240);
+    border-style: groove;
+    width: 85%;
+  }
+  
+  .cardHeader{
+    margin-bottom: -4vh;
+    width: 15rem;
+    padding-top: 3.5vh;
+    margin-left: 7ch;
+    color: darkblue;
+    font-size: larger;  
+    padding-bottom: 1.75rem;
+    display: inline-flex;
+  }
+  .cardHeader:hover{
+    cursor: default;
+  }
+  
+  
+  .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    background-color: #ffffff;
+  }
+  
+  .card p{
+    display: inline-block;
+    font-size: 18px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: black;
+    font-weight: bold;
+    margin-left: 1.5ch;
+    position: relative;
+    top: -3vh;
+  }
+  .card div{
+    margin-right: 12ch;
+  }
+  
+
+ input[name="checkbox"]
+ {
+    width: 3rem;
+    height: 2.5rem;
+    position: relative;
+    margin-top: -5rem;
+    top: 4.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+ }
+
+ h1[name="points"]{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-right: 0.2rem;
+ }
+
+ div[name="points"]
+ {
+  display: inline-flex;
+  position:relative;
+  top: -1.4rem;
+  left: -2rem;
+  bottom: 25%;
+  margin-left: 78%;
+ }
+
+ .answers{
+  margin-top: 2rem;
+ }
+
+ .correct{
+  color: green !important;
+}
+
+.incorrect{
+  color: rgb(231, 50, 50);;
+}
+
+h3[name="difficultyEasy"]{
+  margin-left: -12rem;
+  color: rgb(6, 128, 36);
+}
+h3[name="difficultyMed"]{
+  margin-left: -12rem;
+  color: #f8b248;
+}
+h3[name="difficultyHard"]{
+  margin-left: -12rem;
+  color: #eb2632;
+}
+
+.modal_image{
+  cursor: pointer;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.129);
+  border-width: 2px;
+  border-style: groove;
+  border-radius: 20%;
+  margin-left: 4.5rem;
+  margin-top: 0.6rem;
+  z-index: 2;
+}
+
+.noImage{
+  margin-left: -3.5rem;
+}
